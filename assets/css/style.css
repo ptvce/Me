@@ -61,7 +61,7 @@ body {
 
   /*Extera small devies*/
   span{
-    color: green;
+    color: rgb(238, 119, 0);
     font-size: 18px;
     white-space: nowrap;
   }
