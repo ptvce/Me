@@ -59,5 +59,42 @@ body {
 
 
 
-
+  /*Extera small devies*/
+  span{
+    color: green;
+    font-size: 18px;
+    white-space: nowrap;
+  }
+  /*Small devices(landscape phones 576px and up)*/
+  @media (min-width: 576px) {
+    span {
+      color: rgb(238, 119, 0);
+      font-size: 40px;
+      font-weight: 700;
+    }
+  }
+  /*Medium devices(landscape phones 768px and up)*/
+  @media (min-width: 768px) {
+    span {
+      color: rgb(238, 119, 0);
+      font-size: 40px;
+      font-weight: 700;
+    }
+  }
+  /*large devices(desktop  992px and up)*/
+  @media (min-width: 992px) {
+    span {
+      color: rgb(238, 119, 0);
+      font-size: 40px;
+      font-weight: 700;
+    }
+  }
+  /*Extera devices(large desktop 1200px and up)*/
+  @media (min-width: 1200px) {
+    span {
+      color: white;
+      font-size: 40px;
+      font-weight: 700;
+    }
+  }
 
